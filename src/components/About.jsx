@@ -53,8 +53,7 @@ const About = () => {
                 </h3>
                 <p>Months Experience</p>
               </div>
-              {/* Placeholder for future statistics */}
-              <div></div>
+              
             </div>
           </div>
         </div>
