@@ -14,11 +14,15 @@ const About = () => {
           />
 
           <div className="flex-1">
-            <p className="text-lg mb-8">With a talent for crafting intuitive user interfaces and smooth user experiences, 
-                I focus on writing clean, maintainable code that drives performance and scalability. Trained at ALX Africa, 
-                I have a solid foundation in modern web development. Whether working 
-                independently or collaborating with teams, I strive to create innovative solutions that ensure websites 
-                and apps are fast, accessible, and visually appealing.</p>
+            <p className="text-lg mb-8">
+              With a talent for crafting intuitive user interfaces and smooth
+              user experiences, I focus on writing clean, maintainable code that
+              drives performance and scalability. Trained at ALX Africa, I have
+              a solid foundation in modern web development. Whether working
+              independently or collaborating with teams, I strive to create
+              innovative solutions that ensure websites and apps are fast,
+              accessible, and visually appealing.
+            </p>
 
             <div className="space-y-4">
               <div className="flex items-center">
@@ -34,8 +38,8 @@ const About = () => {
               </div>
 
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
-                  JS
+                <label htmlFor="javascript" className="w-2/12 text-sm">
+                  JavaScript
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -46,7 +50,7 @@ const About = () => {
               </div>
 
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
+                <label htmlFor="tailwindcss" className="w-2/12">
                   Tailwind CSS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -58,7 +62,7 @@ const About = () => {
               </div>
 
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
+                <label htmlFor="react" className="w-2/12">
                   React.js
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -68,10 +72,10 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              
+
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
-                  TS
+                <label htmlFor="typescript" className="w-2/12 text-sm">
+                  TypeScript
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -80,9 +84,9 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              
+
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
+                <label htmlFor="redux" className="w-2/12">
                   Redux
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -94,7 +98,7 @@ const About = () => {
               </div>
 
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
+                <label htmlFor="nextjs" className="w-2/12">
                   Next.js
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -104,36 +108,15 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              
-
             </div>
-            
+
             <div className="mt-12 flex justify-between text-center">
-                <div>
-                    <h3 className="text-2xl font-bold text-transparent bg-clip-text 
-                bg-gradient-to-r from-green-400 to-blue-500">
-                        1/4
-                    </h3>
-                    <p>Years Experience</p>
-                </div>
-            
-                {/* <div>
-                    <h3 className="text-2xl font-bold text-transparent bg-clip-text 
-                bg-gradient-to-r from-green-400 to-blue-500">
-                        50+
-                    </h3>
-                    <p>Projects Completed</p>
-                </div>
-                <div>
-                    <h3 className="text-2xl font-bold text-transparent bg-clip-text 
-                bg-gradient-to-r from-green-400 to-blue-500">
-                        10+
-                    </h3>
-                    <p>Happy Clients</p>
-                </div>*/}
-                
-                <div>
-                </div>
+              <div>
+                <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+                  3
+                </h3>
+                <p>Months Experience</p>
+              </div>
             </div>
           </div>
         </div>
