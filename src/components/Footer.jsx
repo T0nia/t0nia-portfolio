@@ -48,7 +48,7 @@ const Footer = () => {
             <a href="#" className="text-gray-400 hover:text-white">
               <FaLinkedin />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://github.com/T0nia" target="_blank" className="text-gray-400 hover:text-white">
               <FaGithub />
             </a>
           </div>
