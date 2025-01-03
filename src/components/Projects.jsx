@@ -1,29 +1,29 @@
 import React from "react";
-import todoImage from "../assets/Hero-img.jpg";
-import weatherImage from "../assets/Hero-img.jpg";
-import portImage from "../assets/Hero-img.jpg";
+import todoImage from "../assets/todoImage.png";
+import convImage from "../assets/convImage.jpg";
+import portImage from "../assets/portImage.jpg";
 
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
-    technologies: "MERN Stack",
-    image: todoImage,
-    github: "https://github.com/YouafKhan1",
+    name: "Currency Converter",
+    technologies: "React.js, Tailwind CSS",
+    image: convImage,
+    url: "https://basic-currency-converter.vercel.app/",
   },
   {
     id: 2,
-    name: "Blog App",
-    technologies: "MERN Stack",
-    image: weatherImage,
-    github: "https://github.com/YouafKhan1",
+    name: "To-do App",
+    technologies: "HTML, CSS, JS",
+    image: todoImage,
+    url: "https://github.com/T0nia/dynamic-to-do-app",
   },
   {
     id: 3,
-    name: "Book MS",
-    technologies: "MERN Stack",
+    name: "Portfolio",
+    technologies: "React Vite, Tailwind",
     image: portImage,
-    github: "https://github.com/YouafKhan1",
+    url: "https://github.com/T0nia/t0nia-portfolio",
   },
 ];
 
@@ -34,15 +34,25 @@ const Projects = () => {
         <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div key={project.id} className="bg-gray-800 p-6 rounded-lg hover:shadow-lg 
-            transform transition-transform duration-300 hover:scale-105">
-              <img src={project.image} alt={project.name} className="rounded-lg mb-4 
-              w-full h-48 object-cover" />
+            <div
+              key={project.id}
+              className="bg-gray-800 p-6 rounded-lg hover:shadow-lg transform transition-transform duration-300 hover:scale-105"
+            >
+              <img
+                src={project.image}
+                alt={project.name}
+                className="rounded-lg mb-4 w-full h-48 object-cover"
+              />
               <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
               <p className="text-gray-400 mb-4">{project.technologies}</p>
-              <a href={project.github} className="inline-block bg-gradient-to-r 
-              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
-              rel="noopener noreferrer">GitHub</a>
+              <a
+                href={project.url} 
+                className="inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
             </div>
           ))}
         </div>
