@@ -25,89 +25,25 @@ const About = () => {
             </p>
 
             <div className="space-y-4">
-              <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
-                  HTML & CSS
-                </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
-                  <div
-                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-                    transform transition-transform duration-300 hover:scale-105 w-11/12"
-                  ></div>
+              {/* Skill bar sections */}
+              {[
+                { name: "HTML & CSS", width: "11/12" },
+                { name: "JavaScript", width: "11/12" },
+                { name: "Tailwind CSS", width: "11/12" },
+                { name: "React.js", width: "11/12" },
+                { name: "TypeScript", width: "10/12" },
+                { name: "Redux", width: "10/12" },
+                { name: "Next.js", width: "9/12" },
+              ].map((skill, index) => (
+                <div key={index} className="flex flex-col md:flex-row items-center md:space-x-4">
+                  <label className="w-full md:w-2/12 text-center">{skill.name}</label>
+                  <div className="w-full bg-gray-800 rounded-full h-2.5">
+                    <div
+                      className={`bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-${skill.width}`}
+                    ></div>
+                  </div>
                 </div>
-              </div>
-
-              <div className="flex items-center">
-                <label htmlFor="javascript" className="w-2/12 text-xs">
-                  JavaScript
-                </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
-                  <div
-                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-                    transform transition-transform duration-300 hover:scale-105 w-11/12"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <label htmlFor="tailwindcss" className="w-2/12">
-                  Tailwind CSS
-                </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
-                  <div
-                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-                    transform transition-transform duration-300 hover:scale-105 w-11/12"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <label htmlFor="react" className="w-2/12">
-                  React.js
-                </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
-                  <div
-                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-                    transform transition-transform duration-300 hover:scale-105 w-11/12"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <label htmlFor="typescript" className="w-2/12 text-xs">
-                  TypeScript
-                </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
-                  <div
-                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-                    transform transition-transform duration-300 hover:scale-105 w-10/12"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <label htmlFor="redux" className="w-2/12">
-                  Redux
-                </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
-                  <div
-                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-                    transform transition-transform duration-300 hover:scale-105 w-10/12"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <label htmlFor="nextjs" className="w-2/12">
-                  Next.js
-                </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
-                  <div
-                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-                    transform transition-transform duration-300 hover:scale-105 w-9/12"
-                  ></div>
-                </div>
-              </div>
+              ))}
             </div>
 
             <div className="mt-12 flex justify-between text-center">
@@ -117,6 +53,8 @@ const About = () => {
                 </h3>
                 <p>Months Experience</p>
               </div>
+              {/* Placeholder for future statistics */}
+              <div></div>
             </div>
           </div>
         </div>
