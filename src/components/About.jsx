@@ -38,7 +38,7 @@ const About = () => {
               </div>
 
               <div className="flex items-center">
-                <label htmlFor="javascript" className="w-2/12 text-sm">
+                <label htmlFor="javascript" className="w-2/12 text-xs">
                   JavaScript
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -74,7 +74,7 @@ const About = () => {
               </div>
 
               <div className="flex items-center">
-                <label htmlFor="typescript" className="w-2/12 text-sm">
+                <label htmlFor="typescript" className="w-2/12 text-xs">
                   TypeScript
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
