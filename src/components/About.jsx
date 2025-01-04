@@ -33,7 +33,7 @@ const About = () => {
                 { name: "React.js", width: "11/12" },
                 { name: "TypeScript", width: "10/12" },
                 { name: "Redux", width: "10/12" },
-                { name: "Next.js", width: "9/12" },
+                { name: "Next.js", width: "8/12" },
               ].map((skill, index) => (
                 <div key={index} className="flex flex-col md:flex-row items-center md:space-x-4">
                   <label className="w-full md:w-2/12 text-center">{skill.name}</label>
