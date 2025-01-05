@@ -16,7 +16,7 @@ const projects = [
     name: "To-do App",
     technologies: "HTML, CSS, JS",
     image: todoImage,
-    url: "https://github.com/T0nia/dynamic-to-do-app",
+    url: "https://dynamic-todo-app-t0nias-projects.vercel.app/",
   },
   {
     id: 3,
