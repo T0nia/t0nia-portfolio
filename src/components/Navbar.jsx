@@ -13,9 +13,15 @@ const Navbar = () => {
                 <a href="#contact" className='hover:text-gray-400'>Contact</a>
             </div>
             
-            {/* connect button */}
-            <button className='bg-gradient-to-r from-blue-500 to-green-400 text-white hidden md:inline
-            transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>Connect with Me</button>
+            {/* connect button link */}
+            <a 
+              href="https://www.linkedin.com/in/anthonia-edokah-487179309/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className='bg-gradient-to-r from-blue-500 to-green-400 text-white hidden md:inline
+              transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
+              Get in touch
+            </a>
         </div>
     </nav>
   )

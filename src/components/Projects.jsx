@@ -25,6 +25,28 @@ const projects = [
     image: portImage,
     url: "https://github.com/T0nia/t0nia-portfolio",
   },
+  
+  // {
+  //   id: 4,
+  //   name: "New To-do App",
+  //   technologies: "HTML, CSS, JS",
+  //   image: todoImage,
+  //   url: "https://www.bbb.com",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Another Project",
+  //   technologies: "React.js, Tailwind CSS",
+  //   image: todoImage,
+  //   url: "https://www.bbb.com",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Sample Project",
+  //   technologies: "HTML, CSS, JavaScript",
+  //   image: todoImage,
+  //   url: "https://www.bbb.com",
+  // },
 ];
 
 const Projects = () => {
@@ -46,7 +68,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
               <p className="text-gray-400 mb-4">{project.technologies}</p>
               <a
-                href={project.url} 
+                href={project.url}
                 className="inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -55,6 +77,15 @@ const Projects = () => {
               </a>
             </div>
           ))}
+        </div>
+        <div className="text-center mt-12">
+          <a
+            href="https://github.com/T0nia"
+            target="_blank" 
+            className="text-green-400 hover:text-green-500 text-xl font-semibold"
+          >
+            See More Projects
+          </a>
         </div>
       </div>
     </div>

@@ -39,13 +39,13 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} T0nia. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="javascript:void(0)" className="text-gray-400 hover:text-white">
               <FaFacebook />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="javascript:void(0)" className="text-gray-400 hover:text-white">
               <FaTwitter />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="javascript:void(0)" className="text-gray-400 hover:text-white">
               <FaLinkedin />
             </a>
             <a href="https://github.com/T0nia" target="_blank" className="text-gray-400 hover:text-white">
@@ -53,10 +53,10 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="javascript:void(0)" className="text-gray-400 hover:text-white">
               Privacy
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="javascript:void(0)" className="text-gray-400 hover:text-white">
               Terms of Service
             </a>
           </div>

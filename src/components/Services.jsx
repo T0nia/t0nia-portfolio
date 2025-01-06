@@ -4,32 +4,32 @@ import React from "react";
 
 const services = [
   {
-    id: 1,
+    // id: 1,
     title: "Web Design",
     description: "Creating beautiful and user-friendly web pages."
   },
   {
-    id: 2,
+    // id: 2,
     title: "Frontend Development",
     description: "Creating interactive user interfaces for all types of devices."
   },
   {
-    id: 3,
+    // id: 3,
     title: "Technical Writing",
     description: "Using the right words to simplify complex technial concepts.",
   },
   {
-    id: 4,
+    // id: 4,
     title: "Freelancing",
     description: "Providing my skills and services on project-by-project basis.",
   },
   {
-    id: 5,
+    // id: 5,
     title: "Collaboration",
     description: "Partnering with individuals and organizations to build projects.",
   },
   {
-    id: 6,
+    // id: 6,
     title: "Coaching",
     description: "One-on-one coding sessions with web development beginners.",
   },
@@ -58,7 +58,7 @@ const Service = () => {
                 {service.title}
               </h3>
               <p className="mt-2 text-gray-300">{service.description}</p>
-              <a href="#" className="mt-4 inline-block text-green-400 hover:text-blue-500">Read More</a>
+              {/* <a href="#" className="mt-4 inline-block text-green-400 hover:text-blue-500">Read More</a> */}
             </div>
           ))}
         </div>
