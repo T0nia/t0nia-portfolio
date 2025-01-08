@@ -5,35 +5,38 @@ import portImage from "../assets/portImage.jpg";
 import sudokuImg from "../assets/sudokuImg.png";
 
 const projects = [
+  
   {
     id: 1,
-    name: "Currency Converter",
-    technologies: "React.js, Tailwind CSS",
-    image: convImage,
-    url: "https://basic-currency-converter.vercel.app/",
-  },
-  {
-    id: 2,
     name: "To-do App",
     technologies: "HTML, CSS, JS",
     image: todoImage,
     url: "https://dynamic-todo-app-t0nias-projects.vercel.app/",
   },
   {
-    id: 3,
-    name: "Portfolio",
-    technologies: "React Vite, Tailwind",
-    image: portImage,
-    url: "https://github.com/T0nia/t0nia-portfolio",
-  },
-  
-  {
-    id: 4,
+    id: 2,
     name: "sudoku",
     technologies: "Next.js, TypeScript, Tailwind",
     image: sudokuImg,
     url: "https://sudoku-game-drab.vercel.app/",
   },
+  {
+    id: 3,
+    name: "Currency Converter",
+    technologies: "React.js, Tailwind CSS",
+    image: convImage,
+    url: "https://basic-currency-converter.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "Portfolio",
+    technologies: "React Vite, Tailwind",
+    image: portImage,
+    url: "https://github.com/T0nia/t0nia-portfolio",
+  },
+ 
+  
+ 
   // {
   //   id: 5,
   //   name: "Another Project",
