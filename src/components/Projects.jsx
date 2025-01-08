@@ -2,6 +2,7 @@ import React from "react";
 import todoImage from "../assets/todoImage.png";
 import convImage from "../assets/convImage.jpg";
 import portImage from "../assets/portImage.jpg";
+import sudokuImg from "../assets/sudokuImg.png";
 
 const projects = [
   {
@@ -26,13 +27,13 @@ const projects = [
     url: "https://github.com/T0nia/t0nia-portfolio",
   },
   
-  // {
-  //   id: 4,
-  //   name: "New To-do App",
-  //   technologies: "HTML, CSS, JS",
-  //   image: todoImage,
-  //   url: "https://www.bbb.com",
-  // },
+  {
+    id: 4,
+    name: "sudoku",
+    technologies: "Next.js, TypeScript, Tailwind",
+    image: sudokuImg,
+    url: "https://sudoku-game-drab.vercel.app/",
+  },
   // {
   //   id: 5,
   //   name: "Another Project",
