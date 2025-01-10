@@ -27,13 +27,13 @@ const projects = [
     image: convImage,
     url: "https://basic-currency-converter.vercel.app/",
   },
-  {
-    id: 4,
-    name: "Portfolio",
-    technologies: "React Vite, Tailwind",
-    image: portImage,
-    url: "https://github.com/T0nia/t0nia-portfolio",
-  },
+  // {
+  //   id: 4,
+  //   name: "Portfolio",
+  //   technologies: "React Vite, Tailwind",
+  //   image: portImage,
+  //   url: "https://github.com/T0nia/t0nia-portfolio",
+  // },
  
   
  
