@@ -15,7 +15,7 @@ const projects = [
   },
   {
     id: 2,
-    name: "sudoku",
+    name: "Sudoku Game",
     technologies: "Next.js, TypeScript, Tailwind",
     image: sudokuImg,
     url: "https://sudoku-game-drab.vercel.app/",
