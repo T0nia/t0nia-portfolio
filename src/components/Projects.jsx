@@ -1,7 +1,7 @@
 import React from "react";
 import todoImage from "../assets/todoImage.png";
 import convImage from "../assets/convImage.jpg";
-import portImage from "../assets/portImage.jpg";
+import codeVibe from "../assets/codeVibe.jpg"
 import sudokuImg from "../assets/sudokuImg.png";
 
 const projects = [
@@ -27,15 +27,13 @@ const projects = [
     image: convImage,
     url: "https://basic-currency-converter.vercel.app/",
   },
-  // {
-  //   id: 4,
-  //   name: "Portfolio",
-  //   technologies: "React Vite, Tailwind",
-  //   image: portImage,
-  //   url: "https://github.com/T0nia/t0nia-portfolio",
-  // },
- 
-  
+  {
+    id: 4,
+    name: "E-school Landing Page",
+    technologies: "React Vite, Tailwind, Framer Motion",
+    image: codeVibe,
+    url: "https://codevibe-t0nias-projects.vercel.app/",
+  }, 
  
   // {
   //   id: 5,
