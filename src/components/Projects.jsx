@@ -5,14 +5,14 @@ import codeVibe from "../assets/codeVibe.jpg"
 import sudokuImg from "../assets/sudokuImg.png";
 
 const projects = [
-  
   {
     id: 1,
-    name: "To-do App",
-    technologies: "HTML, CSS, JS",
-    image: todoImage,
-    url: "https://dynamic-todo-app-t0nias-projects.vercel.app/",
-  },
+    name: "E-school Landing Page",
+    technologies: "React Vite, Tailwind, Framer Motion",
+    image: codeVibe,
+    url: "https://codevibe-t0nias-projects.vercel.app/",
+  }, 
+ 
   {
     id: 2,
     name: "Sudoku Game",
@@ -20,6 +20,7 @@ const projects = [
     image: sudokuImg,
     url: "https://sudoku-game-drab.vercel.app/",
   },
+
   {
     id: 3,
     name: "Currency Converter",
@@ -27,13 +28,15 @@ const projects = [
     image: convImage,
     url: "https://basic-currency-converter.vercel.app/",
   },
+
   {
     id: 4,
-    name: "E-school Landing Page",
-    technologies: "React Vite, Tailwind, Framer Motion",
-    image: codeVibe,
-    url: "https://codevibe-t0nias-projects.vercel.app/",
-  }, 
+    name: "To-do App",
+    technologies: "HTML, CSS, JS",
+    image: todoImage,
+    url: "https://dynamic-todo-app-t0nias-projects.vercel.app/",
+  },
+  
  
   // {
   //   id: 5,
