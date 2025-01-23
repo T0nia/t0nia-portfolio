@@ -25,7 +25,7 @@ const Home = () => {
       <div className='mt-8 space-x-4'>
         <a 
           href="#contact" 
-          className='bg-gradient-to-r from-purple-500 to-pink-700 text-white px-4 py-2 rounded-full'>
+          className='bg-gradient-to-r from-blue-500 to-gray-500 font-medium text-white px-4 py-2 rounded-full'>
           Hire Me
         </a>
       </div>
