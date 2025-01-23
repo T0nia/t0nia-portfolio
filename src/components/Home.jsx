@@ -12,7 +12,7 @@ const Home = () => {
       />
 
       <h1 className='text-4xl font-bold'> {" "}
-        <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-400 '>
+        <span className='text-transparent bg-clip-text bg-blue-500 '>
           Anthonia Edokah</span>
         , Frontend Engineer    
       </h1>
