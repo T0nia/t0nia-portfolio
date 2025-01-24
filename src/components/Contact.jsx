@@ -2,6 +2,13 @@ import React from 'react';
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa';
 
 const Contact = () => {
+  const handleSubscribe = (e) => {
+    e.preventDefault(); 
+    // my submission logic will be here when I am ready
+  
+  };
+
+
   return (
     <div className="bg-black text-white py-8" id="contact">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
@@ -27,7 +34,7 @@ const Contact = () => {
             </div> */}
           </div>
           <div className='flex-1 w-full'>
-            <form className='space-y-4'>
+            <form onSubmit={handleSubscribe} className='space-y-4'>
                 <div>
                     <label htmlFor="name" className='block mb-2'>Your Name</label>
                     <input type="text" 
@@ -50,7 +57,8 @@ const Contact = () => {
                     rows="5"
                     placeholder='Enter Your Message'/>
                 </div>
-                <button className='bg-gradient-to-r from-gray-400 to-green-500 text-white md:inline
+                <button type='submit'
+                className='bg-gradient-to-r from-gray-400 to-green-500 text-white md:inline
             transform transition-transform duration-300 hover:scale-105 px-8 py-2 rounded-full'>Send</button>
             </form>
           </div>
