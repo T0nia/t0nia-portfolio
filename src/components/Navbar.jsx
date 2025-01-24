@@ -17,7 +17,7 @@ const Navbar = () => {
           href="https://www.linkedin.com/in/anthonia-edokah-487179309/"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-green-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
+          className="bg-gradient-to-r from-gray-400 to-green-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
         >
           Get in touch
         </a>
