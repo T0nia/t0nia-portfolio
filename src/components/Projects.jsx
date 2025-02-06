@@ -33,18 +33,18 @@ const projects = [
 
   {
     id: 4,
-    name: "To-do App",
-    technologies: "HTML, CSS, JS",
-    image: todoImage,
-    url: "https://dynamic-todo-app-t0nias-projects.vercel.app/",
-  },
-  
-  {
-    id: 5,
     name: "Weather App",
     technologies: "HTML, CSS, JS",
     image: weatherImg,
     url: "https://weather-line.vercel.app/",
+  },
+
+  {
+    id: 5,
+    name: "To-do App",
+    technologies: "HTML, CSS, JS",
+    image: todoImage,
+    url: "https://dynamic-todo-app-t0nias-projects.vercel.app/",
   },
   
   // {
