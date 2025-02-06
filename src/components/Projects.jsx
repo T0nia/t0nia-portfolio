@@ -4,6 +4,7 @@ import todoImage from "../assets/todoImage.png";
 import convImage from "../assets/convImage.jpg";
 import codeVibe from "../assets/codeVibe.jpg"
 import sudokuImg from "../assets/sudokuImg.png";
+import weatherImg from "../assets/weatherImg.png";
 
 const projects = [
   {
@@ -38,14 +39,14 @@ const projects = [
     url: "https://dynamic-todo-app-t0nias-projects.vercel.app/",
   },
   
- 
-  // {
-  //   id: 5,
-  //   name: "Another Project",
-  //   technologies: "React.js, Tailwind CSS",
-  //   image: todoImage,
-  //   url: "https://www.bbb.com",
-  // },
+  {
+    id: 5,
+    name: "Weather App",
+    technologies: "HTML, CSS, JS",
+    image: weatherImg,
+    url: "https://weather-line.vercel.app/",
+  },
+  
   // {
   //   id: 6,
   //   name: "Sample Project",
