@@ -15,6 +15,7 @@ const Home = () => {
       <h1 className='text-4xl font-bold'> {" "}
         <span className='text-transparent bg-clip-text bg-blue-500 '>
           Hi, I'm Tonia</span>
+        <br />
     A Frontend Engineer    
       </h1>
 
