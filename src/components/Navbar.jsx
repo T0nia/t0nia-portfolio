@@ -1,18 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa'; // for Hamburger and Close icons
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
   return (
-    <nav className="bg-black text-white px-8 md:px-16 lg:px-24">
-      <div className="container py-2 flex justify-center md:justify-between items-center">
-        <div className="text-2xl font-bold hidden md:inline">t0nia</div>
-        <div className="space-x-6">
-          <a href="#home" className="hover:text-gray-400">Home</a>
-          <a href="#about" className="hover:text-gray-400">About</a>
-          <a href="#service" className="hover:text-gray-400">Services</a>
-          <a href="#project" className="hover:text-gray-400">Projects</a>
-          <a href="#contact" className="hover:text-gray-400">Contact</a>
+    <nav className="bg-black text-white px-6 md:px-16 lg:px-24">
+      <div className="py-4 flex justify-between items-center relative">
+        {/* Logo */}
+        <div className="text-2xl font-bold">t0nia</div>
+
+        {/* Hamburger icon (mobile only) */}
+        <div className="md:hidden z-50" onClick={toggleMenu}>
+          {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </div>
-        {/* Get in touch button */}
+
+        {/* Nav Links */}
+        <div className={`absolute top-16 left-0 w-full bg-black text-center md:static md:flex md:items-center md:space-x-6 ${isOpen ? 'block' : 'hidden'} md:block`}>
+          <a href="#home" onClick={() => setIsOpen(false)} className="block py-2 hover:text-gray-400">Home</a>
+          <a href="#about" onClick={() => setIsOpen(false)} className="block py-2 hover:text-gray-400">About</a>
+          <a href="#service" onClick={() => setIsOpen(false)} className="block py-2 hover:text-gray-400">Services</a>
+          <a href="#project" onClick={() => setIsOpen(false)} className="block py-2 hover:text-gray-400">Projects</a>
+          <a href="#contact" onClick={() => setIsOpen(false)} className="block py-2 hover:text-gray-400">Contact</a>
+        </div>
+
+        {/* Get in touch button (desktop only) */}
         <a
           href="https://www.linkedin.com/in/anthonia-edokah-487179309/"
           target="_blank"
