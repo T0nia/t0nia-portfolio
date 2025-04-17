@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="bg-black text-white px-8 md:px-16 lg:px-24">
       <div className="container py-4 flex items-center justify-between relative">
-        {/* Logo (left) */}
+        {/* Logo */}
         <div className="text-3xl font-bold">t0nia</div>
 
         {/* Centered Nav Links */}
