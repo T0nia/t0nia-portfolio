@@ -70,7 +70,7 @@ const Navbar = () => {
           <a href="#project" className="hover:text-gray-400">Projects</a>
           <a href="#contact" className="hover:text-gray-400">Contact</a>
           <a
-            href="https://www.linkedin.com/in/anthonia-edokah-487179309/"
+            href="www.linkedin.com/in/anthonia-elohor-b5275735a"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-gray-400 to-green-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
